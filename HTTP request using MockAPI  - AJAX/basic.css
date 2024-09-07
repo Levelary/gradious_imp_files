@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sens-serif;
+}
+
+#input_form input { 
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+}
+#aid,#date,#time,#name,#actions {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#page_title {
+    text-align: center;
+}
+
+#input_form {
+    display: none;
+}
+
+.table_container {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+}
+
+#open_form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: auto;
+}
+
+#popup {
+    display: none;
+}
+
+
+#main_table {
+    min-width: 80%;
+    width: 100%;
+    border-collapse: collapse; 
+    text-align: left;
+    display: block;
+}
+
+.row {
+    display: grid;
+    border-collapse: collapse;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.row:nth-child(even) {
+    background-color: #e8e4e4; /* or any other color you prefer */
+}
+
+.cell {
+    /* display: table-cell; */
+    max-width: 100%;
+    padding: 14px 14px 0px 14px;
+    border: 1px solid black;
+    text-align: center;
+    min-width: 80%;
+} 
+.button {
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+}
+
+.add_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: auto;
+}
+.open_form , .add_btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    /* margin: 25px; */
+}
+.update_btn {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.save_btn {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    /* display: none;*/
+    /* position: absolute;  */
+    
+}
+
+.delete_btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-left: 5px;
+}

@@ -1,0 +1,38 @@
+
+[
+	{
+	"userId": "USR00001",
+	"name": "Andrew Grudde",
+	"profilePicture": "https://images.nightcafe.studio/jobs/mWfF1s7OOVg5DMTYiNZ8/mWfF1s7OOVg5DMTYiNZ8--4--qccau.jpg?tr=w-1600,c-at_max",
+	"statusMessage": "We become what we think about!",
+	"presence": 1
+	},
+	{
+	"userId": "USR00002",
+	"name": "Steve Hughes",
+	"profilePicture":  "https://mir-s3-cdn-cf.behance.net/project_modules/fs/6a3f5237411193.573f25019c8bf.jpg",
+	"statusMessage": "A positive mindset brings positive things.",
+	"presence": 2
+	},
+	{
+	"userId": "USR00003",
+	"name": "Kathy Smiley",
+	"profilePicture": "https://preview.redd.it/hlxen8gtwpm01.jpg?width=640&crop=smart&auto=webp&v=enabled&s=a3c43bcbfc1db31d542ef67071559264358b3d2b",
+	"statusMessage": "One small positive thought can change your whole day",
+	"presence": 3
+	},
+	{
+	"userId": "USR00004",
+	"name": "Steve Dunk",
+	"profilePicture": "https://images.nightcafe.studio/jobs/mWfF1s7OOVg5DMTYiNZ8/mWfF1s7OOVg5DMTYiNZ8--4--qccau.jpg?tr=w-1600,c-at_max",
+	"statusMessage": "I am a rock star",
+	"presence": 1
+	},
+	{
+	"userId": "USR00005",
+	"name": "Maria Dropola",
+	"profilePicture": "https://64.media.tumblr.com/21de4501827aba1c6463ce2ae6a36780/tumblr_ps5le9xxRb1w9a5vgo1_1280.jpg",
+	"statusMessage": "I am using Gradious messenger",
+	"presence": 4
+	}
+]

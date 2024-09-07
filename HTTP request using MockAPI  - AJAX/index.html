@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="page_title">Appointment Scheduler:</h2>
+        <div id="input_form">
+            <input type="text" id="aid_add" placeholder="Appointment ID">
+            <input type="date" id="date_add" placeholder="Date">
+            <input type="time" id="time_add" placeholder="Time">
+            <input type="text" id="name_add" placeholder="Client Name">
+            <button class="button add_btn" onclick="addRow()">Save Appointment</button>
+        </div>
+
+        <button class="button open_form" id="open_form" onclick="openForm()">Add Appointment</button>
+        <br>
+        <div id="main_table">
+            <div class="table_container">
+                <div class="row header_row" id="row">
+                    <div class="cell" id="aid">Appointment ID</div>
+                    <div class="cell" id="date">Date</div>
+                    <div class="cell" id="time">Time</div>
+                    <div class="cell" id="name">Client Name</div>
+                    <div class="cell" id="actions">Actions</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="popup"></div> -->
+    </div>
+    <!-- <button class="button save_btn">Save</button> -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>
